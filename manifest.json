@@ -1,0 +1,14 @@
+{
+  "name": "Auto-Close Whatsapp",
+  "version": "1.0",
+  "description": "Log out of Whatsapp web when the tab is closed.",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["app.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
